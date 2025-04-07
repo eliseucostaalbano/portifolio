@@ -1,18 +1,33 @@
 import HTMLFlipBook from 'react-pageflip';
 import Pagina from './page';
-
+import Capa  from './Paginas/Capa/Capa';
+import ImgCapa from '../assets/capa.png';
+import EndImg from '../assets/ultima-pagina.png';
+import PrimeiraPagina from './Paginas/Hero/Hero';
+import Habilidades from './Paginas/Habilidades/Habilidades';
+import Serviços from './Paginas/Serviços/Serviços';
+import Sobre from './Paginas/Sobre/Sobre';
 
 function MeuLivro(props) {
     return (
         <HTMLFlipBook width={600} height={700} showCover={true}>
             <Pagina number={1}>
-            <div className="demoPage text-white text-3xl">Page 1</div> 
+            <Capa coverImg={ImgCapa} title="Meu Portifolio" />
             </Pagina>
             <Pagina number={2}>
-                <div className="demoPage text-white text-3xl">Page 2</div>
+                <PrimeiraPagina />
             </Pagina> 
             <Pagina number={3}>
-                <div className="demoPage text-white text-3xl">Page 3</div> 
+             <Habilidades />
+            </Pagina>
+            <Pagina number={4}>
+            <Serviços />
+            </Pagina>
+            <Pagina number={5}>  
+             <Sobre />
+            </Pagina>
+            <Pagina number={6}> 
+             <Capa coverImg={EndImg} title="Obrigado" />
             </Pagina>
         </HTMLFlipBook>
     );
