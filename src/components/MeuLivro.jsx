@@ -8,11 +8,11 @@ import Habilidades from './Paginas/Habilidades/Habilidades';
 import Serviços from './Paginas/Serviços/Serviços';
 import Sobre from './Paginas/Sobre/Sobre';
 
-function MeuLivro(props) {
+function MeuLivro() {
     return (
         <HTMLFlipBook width={600} height={700} showCover={true}>
             <Pagina number={1}>
-            <Capa coverImg={ImgCapa} title="Meu Portifolio" />
+            <Capa coverImg={ImgCapa} title="Meu Portifólio" />
             </Pagina>
             <Pagina number={2}>
                 <PrimeiraPagina />
