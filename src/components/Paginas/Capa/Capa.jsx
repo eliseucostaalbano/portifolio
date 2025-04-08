@@ -11,7 +11,7 @@ export const Capa = ({ coverImg, title }) => {
 
   return (
     <div className="h-full" style={coverImgStyle}>
-    <div className='h-full flex items-center justify-center'>
+    <div className='h-full flex items-center justify-center page-shadow'>
     <h1 className='text-[#150184] text-5xl font-bold font-outline-2'>{title}</h1>
     </div>
     </div>

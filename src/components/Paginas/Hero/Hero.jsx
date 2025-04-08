@@ -26,8 +26,7 @@ const PrimeiraPagina = () => {
                 className="inline-block primary-btn "
                 href="mailto:eliseualbano57@gmail.com"
               >
-                {" "}
-                Hire me
+              Me Contate
               </a>
             </div>
         </div>
