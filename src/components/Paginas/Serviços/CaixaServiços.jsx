@@ -36,8 +36,8 @@ const CaixaServiços = () => {
   return(
     <div  className="h-full mt-10 text-white">
     <div className="grid grid-cols-2 gap-6">
-        {ServicesData.map(({nome ,descrição ,icone ,bgColor})=>(
-            <div className={`p-3 ${bgColor} min-h-[180px] rounded-xl`}>
+        {ServicesData.map(({nome ,descrição ,icone ,bgColor}, index)=>(
+            <div key={index} className={`p-3 ${bgColor} min-h-[180px] rounded-xl`}>
                 <div className="py-3 space-y-3">
                     {icone}
                     <h1>{nome}</h1>

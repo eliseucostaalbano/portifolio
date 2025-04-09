@@ -17,7 +17,7 @@ const PrimeiraPagina = () => {
               <p className="text-4xl md:text-6xl font-bold text-black/80">
                 Eu sou Eliseu
               </p>
-              <p className="text-black/75 text-left">Full Stack Developer Junior e Game Developer junior</p>
+              <p className="text-black/75 text-left">Full Stack Developer Junior e Game Developer</p>
               <p className="text-black/75">
               Tenho experiência de 2 anos em Full Stack focando mais na criação de jogos usando HTML, CSS, JS 
               e 1 ano em Game Developer .

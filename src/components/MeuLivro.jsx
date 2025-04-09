@@ -20,13 +20,13 @@ const ProjetoData = [
   {
     nome: "Ache os As",
     descrição: "Um simples jogo de cartas onde o jogador deve encontrar o As .",
-    image: ProjetoImg1 ,
+    imagem: ProjetoImg1 ,
     previewLink: "https://ache-os-as.netlify.app/",
   },
   {
     nome: "Jogo 2048",
     descrição: "Um simples jogo de 2048 onde o jogador deve juntar os números até chegar a 2048 ou mais.",
-    image: ProjetoImg2,
+    imagem: ProjetoImg2,
     previewLink: "https://jogo2048.netlify.app/",
     },
 ]
@@ -81,16 +81,18 @@ function MeuLivro() {
              <Sobre />
             </Pagina>
             <Pagina number={6}>
-                <Projeto projeto={ProjetoData} />
+                <Projeto ProjetoData={ProjetoData} />
             </Pagina>
             <Pagina number={7}>
-                <Projeto projeto={ProjetoData2} />
+                <Projeto ProjetoData={ProjetoData2} />
             </Pagina>
             <Pagina number={8}>
-                <Projeto projeto={ProjetoData3} />
+                <Projeto ProjetoData={ProjetoData3} />
             </Pagina>
-            <Pagina number={9}> 
-             <Capa coverImg={EndImg} title="Obrigado" />
+            <Pagina number={9}>
+            </Pagina>
+            <Pagina number={10}>
+                <Capa coverImg={EndImg} title="Obrigado" />
             </Pagina>
         </HTMLFlipBook>
     );
