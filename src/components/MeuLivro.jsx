@@ -7,13 +7,16 @@ import PrimeiraPagina from './Paginas/Hero/Hero';
 import Habilidades from './Paginas/Habilidades/Habilidades';
 import Serviços from './Paginas/Serviços/Serviços';
 import Sobre from './Paginas/Sobre/Sobre';
+import Projeto from "./Paginas/Projeto/Projeto";
 
 import ProjetoImg1 from '../assets/Projetos/Jogo de cartas.png';
 import ProjetoImg2 from '../assets/Projetos/2048.png';
 import ProjetoImg3 from '../assets/Projetos/jogo do dino chorme.png';
 import ProjetoImg4 from '../assets/Projetos/site ecomerrce.png';
+import ProjetoImg5 from '../assets/Projetos/jogo canvas.png';
+import ProjetoImg6 from '../assets/Projetos/Space Invanders.png';
 
-const ProjectData = [
+const ProjetoData = [
   {
     nome: "Ache os As",
     descrição: "Um simples jogo de cartas onde o jogador deve encontrar o As .",
@@ -27,7 +30,7 @@ const ProjectData = [
     previewLink: "https://jogo2048.netlify.app/",
     },
 ]
-const ProjectData2 = [
+const ProjetoData2 = [
   {
     nome: "Jogo do Dinossauro",
     descrição: "Um simples jogo do dinossauro onde o jogador deve pular os obstáculos.",
@@ -41,6 +44,23 @@ const ProjectData2 = [
     previewLink: "https://eliseu-ecomerrce.netlify.app/",
   },
 ];
+
+const ProjetoData3 = [
+  {
+    nome: "jogo simples",
+    descrição: "Descrição do projeto 1",
+    imagem: ProjetoImg5,
+    previewLink: "https://eliseucostaalbano.github.io/jogo-canvas/",
+  },
+  {
+    nome: "Jogo space invaders",
+    descrição: "Descrição do projeto 2",
+    imagem: ProjetoImg6,
+    previewLink: "https://eliseucostaalbano.github.io/space-invaders/",
+  },
+];
+
+
 
 function MeuLivro() {
     return (
@@ -60,7 +80,16 @@ function MeuLivro() {
             <Pagina number={5}>  
              <Sobre />
             </Pagina>
-            <Pagina number={6}> 
+            <Pagina number={6}>
+                <Projeto projeto={ProjetoData} />
+            </Pagina>
+            <Pagina number={7}>
+                <Projeto projeto={ProjetoData2} />
+            </Pagina>
+            <Pagina number={8}>
+                <Projeto projeto={ProjetoData3} />
+            </Pagina>
+            <Pagina number={9}> 
              <Capa coverImg={EndImg} title="Obrigado" />
             </Pagina>
         </HTMLFlipBook>
