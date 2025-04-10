@@ -1,4 +1,5 @@
 import React from 'react'
+import Header from "../../Header/Header.jsx";
 import { MdFacebook } from "react-icons/md";
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
@@ -6,11 +7,9 @@ import { FaGithub } from "react-icons/fa";
 const Sobre = () => {
   return (
     <div className='h-full page-shadow bg-white px-10'>
-      <div className='flex flex-col items-center'>
-        <h1 className='inline-block text-3xl text-center font-bold mb-3 border-b-2 border-[#150184] pb-1'>Sobre</h1> 
-        <p className='text-sm text-slate-500 text-center md: w-[80%] mx-auto'>Aqui Algumas Coisas Sobre Mim</p>
-      </div>
-
+      {/* cabeçalho */}
+       <Header titulo="Sobre" subtitulo="Aqui Algumas Coisas Sobre Mim"/>
+       
       {/* seção de detalhes */}
       <div className='mt-10 text-slate-500'>
          <p>

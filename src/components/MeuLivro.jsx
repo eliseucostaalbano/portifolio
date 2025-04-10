@@ -19,7 +19,7 @@ import ProjetoImg6 from '../assets/Projetos/Space Invanders.png';
 const ProjetoData = [
   {
     nome: "Ache os As",
-    descrição: "Um simples jogo de cartas onde o jogador deve encontrar o As .",
+    descrição: "Um simples jogo de cartas onde o jogador deve encontrar o As o maoir número de vezes.",
     imagem: ProjetoImg1 ,
     previewLink: "https://ache-os-as.netlify.app/",
   },
@@ -48,13 +48,13 @@ const ProjetoData2 = [
 const ProjetoData3 = [
   {
     nome: "jogo simples",
-    descrição: "Descrição do projeto 1",
+    descrição: "Um simples jogo onde o jogador deve clicar no botão  e acertar as bolas para ganhar.",
     imagem: ProjetoImg5,
     previewLink: "https://eliseucostaalbano.github.io/jogo-canvas/",
   },
   {
     nome: "Jogo space invaders",
-    descrição: "Descrição do projeto 2",
+    descrição: "Um simples jogo de nave onde tem que derrotar todos os inimigos para para ganhar.",
     imagem: ProjetoImg6,
     previewLink: "https://eliseucostaalbano.github.io/space-invaders/",
   },
