@@ -27,7 +27,7 @@ const Sobre = () => {
          </div> 
          {/* Butoes de link  */}
          <div className='flex space-x-4 mt-4'>
-          <a href='#' className='primary-btn'>Curriculo</a>
+          <a href='https://docs.google.com/document/d/1pA4Y1IKezqvLv9abTZUmYkcoR649OG5q/edit?usp=sharing&ouid=102185843745005444962&rtpof=true&sd=true' className='primary-btn'>Curriculo</a>
           <a href='#' className='outline-btn'>Contato</a>
          </div>
       </div>
