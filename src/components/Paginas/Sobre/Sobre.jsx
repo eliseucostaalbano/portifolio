@@ -21,15 +21,16 @@ const Sobre = () => {
         </p>
          {/* Links Sociais  */}
          <div className="flex space-x-4 mt-10">
-          <MdFacebook className='social-btn'/>
-          <FaLinkedin className='social-btn'/>
-          <FaGithub className='social-btn'/>
+          <a href='#'>
+           <MdFacebook className='social-btn'/>
+          </a>
+          <a href='https://www.linkedin.com/in/eliseu-costa-a84255314/'>
+           <FaLinkedin className='social-btn'/>
+          </a>
+          <a href='https://github.com/eliseucostaalbano'>
+           <FaGithub className='social-btn'/>
+          </a>
          </div> 
-         {/* Butoes de link  */}
-         <div className='flex space-x-4 mt-4'>
-          <a href='https://docs.google.com/document/d/1pA4Y1IKezqvLv9abTZUmYkcoR649OG5q/edit?usp=sharing&ouid=102185843745005444962&rtpof=true&sd=true' className='primary-btn'>Curriculo</a>
-          <a href='#' className='outline-btn'>Contato</a>
-         </div>
       </div>
     </div>
   )
